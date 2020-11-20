@@ -132,7 +132,7 @@ public class Ex1Test {
         WGraph_DS g1 = new WGraph_DS();
         weighted_graph_algorithms ga = new WGraph_Algo(g1);
         _rnd = new Random(1);
-        int n = 1000000, path_size = 500000;
+        int n = 500000, path_size = 50000;
         for (int i = 0; i < n; i++)
             g1.addNode(i);
         LinkedHashSet<Integer> s = new LinkedHashSet<>();
